@@ -1,4 +1,4 @@
-#Made by Social404
+#Made by Bitz
 from config import prefix
 from config import token
 import keep_alive
@@ -19,7 +19,7 @@ client.remove_command("help")
 
 @client.event
 async def on_ready():
-    print ("Ah shit, here we go again")
+    print ("Ah shit, Bitz is back again")
 
 @client.event
 async def on_server_join(server):
@@ -95,24 +95,24 @@ async def mall(ctx):
     for member in list(client.get_all_members()):
         await asyncio.sleep(0)
         try:
-            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://github.com/Social404/Advanced-Discord-Nuke-Bot", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
+            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://www.youtube.com/channel/UC25p_bn5jbYR3msu-Z7n9SA/featured", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
             embed.add_field(
                 name="Discord Server",
                 value=
-                "[ [ Click here ] ](https://discord.gg/kE9vk9Zeuf)",
+                "[ [ Click here ] ](https://discord.gg/n32NhQEUeB)",
                 inline=False)
             embed.add_field(
                 name="Youtube Channel",
                 value=
-                "[ [ Click here ] ](https://www.youtube.com/channel/UCXk0klxbjcVgGvYyKWLgtLg)",
+                "[ [ Click here ] ](https://www.youtube.com/channel/UC25p_bn5jbYR3msu-Z7n9SA/featured)",
                 inline=False)
             embed.add_field(
-                name="GitHub",
+                name="Dm Bitz#0002 for the bot",
                 value=
-                "[ [ Click here ] ](https://github.com/social404)",
+                "[ [ Click here ] ](Dm Bitz#0002 for the code)",
                 inline=False)
             embed.set_thumbnail(url="https://tenor.com/view/destory-eexplode-nuke-gif-6073338")
-            embed.set_footer(text="Nuked By Social404's Bot! Sorry About Your Loss")
+            embed.set_footer(text="Nuked By Bitz ezz")
             await member.send(embed=embed)
         except:
             pass
@@ -126,24 +126,24 @@ async def destroy(ctx):
     for member in list(client.get_all_members()): 
         await asyncio.sleep(0)
         try:
-            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://github.com/Social404/Advanced-Discord-Nuke-Bot", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
+            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://discord.gg/kE9vk9Zeuf", description="Bitz is pro Bitz#0002 (Bitz will nuke everyone)" , color=discord.Colour.purple())
             embed.add_field(
                 name="Discord Server",
                 value=
-                "[ [ Click here ] ](https://discord.gg/kE9vk9Zeuf)",
+                "[ [ Click here ] ](discord.gg/n32NhQEUeB)",
                 inline=False)
             embed.add_field(
                 name="Youtube Channel",
                 value=
-                "[ [ Click here ] ](https://www.youtube.com/channel/UCXk0klxbjcVgGvYyKWLgtLg)",
+                "[ [ Click here ] ](https://www.youtube.com/channel/UC25p_bn5jbYR3msu-Z7n9SA/featured)",
                 inline=False)
             embed.add_field(
-                name="GitHub",
+                name="Add Bitz#0002",
                 value=
-                "[ [ Click here ] ](https://github.com/social404)",
+                "[ [ Click here ] ](https://www.youtube.com/channel/UC25p_bn5jbYR3msu-Z7n9SA/featured)",
                 inline=False)
             embed.set_thumbnail(url="https://tenor.com/view/destory-eexplode-nuke-gif-6073338")
-            embed.set_footer(text="Nuked By Social404's Bot! Sorry About Your Loss")
+            embed.set_footer(text="Nuked By Bitz add Bitz#0002 for the bot")
             await member.send(embed=embed)
         except:
             pass
@@ -155,7 +155,7 @@ async def destroy(ctx):
         except:
             pass
         guild = ctx.message.guild
-        channel = await guild.create_text_channel("Nuked By Social's Bot! Check Dms")
+        channel = await guild.create_text_channel("Nuked By Bitz add Bitz#0002")
         await channel.send(" @everyone GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
         await channel.send(embed=embed)
     for role in list(ctx.guild.roles):
